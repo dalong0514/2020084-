@@ -1,0 +1,17 @@
+<!--pages/test/test.wxml-->
+<template name="tempItem">
+  <view>
+    <view>收件人：{{name}}</view>    
+    <view>联系方式：{{phone}}</view>    
+    <view>地址：{{address}}</view>    
+  </view>
+</template>
+
+<template is="tempItem" data="{{...item}}"></template>
+
+<import src="test.wxml"></import>
+<template is="tempItem"></template>
+
+<button class="btn" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="onTap">
+  用户登录
+</button>

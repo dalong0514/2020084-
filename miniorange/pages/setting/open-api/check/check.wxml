@@ -1,0 +1,4 @@
+<!--pages/setting/open-api/check/check.wxml-->
+<button class="btn" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="onTap">
+  校验用户信息
+</button>

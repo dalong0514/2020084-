@@ -1,0 +1,4 @@
+<!--pages/setting/open-api/decrypted/decrypted.wxml-->
+<button class="btn" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="onTap">
+  获取用户加密数据
+</button>

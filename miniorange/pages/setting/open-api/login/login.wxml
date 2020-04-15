@@ -1,0 +1,4 @@
+<!--pages/setting/open-api/login/login.wxml-->
+<button class="btn" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="onTap">
+  用户登录
+</button>
