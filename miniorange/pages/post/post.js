@@ -19,6 +19,7 @@ Page({
     this.setData({
       postList: dbPost.getAllPostData()
     });
+    // 试验
   },
 
   // 跳转到列表详细页面
